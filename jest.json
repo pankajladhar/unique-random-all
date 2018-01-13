@@ -1,0 +1,25 @@
+{
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
+    "testPathIgnorePatterns": [
+        "<rootDir>[/\\\\](build|_jest_|node_modules|scripts)[/\\\\]"
+    ],
+    "testEnvironment": "jsdom",
+    "verbose": true,
+    
+    "testURL": "http://localhost",
+    "transformIgnorePatterns": [
+        "node_modules"
+    ],
+    "coverageReporters": ["json", "lcov", "text", "html"],
+    "collectCoverageFrom": [
+        "**/*.js"
+    ],
+    "coverageThreshold": {
+        "global": {
+            "branches": 75,
+            "functions": 75,
+            "lines": 85,
+            "statements": 85
+        }
+    }
+}

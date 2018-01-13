@@ -1,0 +1,32 @@
+{
+  "name": "unique-random-all",
+  "version": "1.0.0",
+  "description": "adad",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config jest.json --coverage",
+    "test:watch": "jest --config jest.json --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "adad"
+  },
+  "keywords": [
+    "unique",
+    "random",
+    "rand",
+    "number",
+    "single",
+    "generate",
+    "non-repeating"
+  ],
+  "author": "Pankaj Ladhar <ladharpankaj@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.0.6",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^22.0.6",
+    "regenerator-runtime": "^0.11.1"
+  }
+}
